@@ -4,7 +4,7 @@ const userSchema = new Schema({
 	userid: {
 		type: String,
 		require: true,
-		unique: true
+		// unique: true
 	},
 	userpw: {
 		type: String,
